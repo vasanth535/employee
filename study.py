@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the saved model
-model = joblib.load("salary_model.pkl")
+model = joblib.load("salary_model_compressed.zip")
 
 # Page title
 st.title("💼 Employee Salary Prediction App")
